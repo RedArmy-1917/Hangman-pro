@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect, session
+import os
+from flask import Flask, render_template, request
 from core import HangmanCore
 
 app = Flask(__name__)
@@ -23,4 +24,5 @@ def index():
     )
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
