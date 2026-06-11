@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, request, redirect, session
+from flask import Flask, render_template, request
 from core import HangmanCore
 
 app = Flask(__name__)
