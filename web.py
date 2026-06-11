@@ -1,9 +1,6 @@
 import os
-<<<<<<< HEAD
 from flask import Flask, render_template, request, redirect
-=======
 from flask import Flask, render_template, request
->>>>>>> 00b321e71cc685dfdd0e02a5bd5f7890c27f1183
 from core import HangmanCore
 
 app = Flask(__name__)
@@ -43,8 +40,5 @@ def new_game():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-<<<<<<< HEAD
     app.run(host="0.0.0.0", port=port)
-=======
     app.run(host="0.0.0.0", port=port)
->>>>>>> 00b321e71cc685dfdd0e02a5bd5f7890c27f1183
