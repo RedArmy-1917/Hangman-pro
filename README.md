@@ -33,3 +33,30 @@ A modern full-stack Hangman game built with Python (Flask) and deployed on Railw
 ---
 
 ## 📂 Project Structure
+hangman-pro/
+├── web.py
+├── core.py
+├── templates/
+│ └── index.html
+├── requirements.txt
+
+---
+
+## 💡 What I Learned
+
+- Building full-stack web apps with Flask
+- Handling game state in backend
+- Deploying applications on cloud platforms
+- Working with Git & version control
+
+---
+
+## 📷 Preview
+
+(Add screenshot here)
+
+---
+
+## 📬 Contact
+
+Created by: Soroush Daneshpour
